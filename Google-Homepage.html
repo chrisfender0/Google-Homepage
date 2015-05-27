@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <style>
+            body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                 }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            #SearchMe {
+                text-align: center;
+            }
+            #SearchMe img {
+                display: block;
+                margin: 0 auto;
+                width: 269px;
+            }            
+            #LoginBar ul {
+                float: right;
+            }
+            li {display: inline;}
+            #SearchBox {
+	            margin: 0;
+                display: inline-block;
+                width: 509px;
+            }
+            .button {
+	            -webkit-appearance: none;
+                -moz-appearance: none;
+                border: 1px solid rgba(0,0,0,0.1);
+                background: #f1f1f1;
+                margin: 0px 8px;
+                border-radius: 2px;
+                text-align: center;
+                font: bold 11px/27px Arial,sans-serif;
+                color: #444;
+            }
+
+            .button:hover	{
+                border: 1px solid #ccc;
+                border-bottom: 2px solid #ccc;
+            }
+            form {
+                position: absolute;
+                width: 100%;
+                left: 0%;
+            }
+            #LoginBar {
+                  position: fixed;
+                  top: 0;
+                  right: 0;
+                  width: 100%;
+                  height: 50px;
+                  margin-top: 0px;
+                  padding-top: 0px;
+                }
+
+            #LoginBar ul{
+                float: right;
+                margin-top: 8px;
+                padding: 0;
+                border: 0;
+            }
+
+            #LoginBar li {
+                margin: 0 5px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            #LoginBar a {
+                color: #404040;
+                font: 13px/27px Arial, sans serif;
+                vertical-align: middle;
+                align: center;
+  
+                }
+
+            #LoginBar img {
+                  margin-top: 6px;
+            }
+            #SearchMe {
+                  width: 100%; height: 25%;
+                  position: absolute;
+                  display: block;
+                  top: 20%;
+                  margin: 0 auto;
+            }
+            #Footer {
+            color: #666;
+            display: inline-block;
+            background-color:#F2F2F2;
+            position: fixed;
+            bottom: 0px;
+            width: 100%; height: 40px;
+  	        border-top: 1px solid #e4e4e4;
+   
+            }
+
+            #L_Footer {
+              float:left;
+            }
+
+            #R_Footer {
+              float: right;
+              margin-right: 25px;
+            }
+
+            #Footer ul
+
+            {
+              margin-top: 12px;
+            }
+            #L_Footer li, #R_Footer li {
+              margin-left: 5px; margin-right: 5px}
+
+            #Footer a {
+              color: #666;
+              font-family: arial, sans-serif;
+              font-size: small;
+            }
+            
+            
+        </style>
+        <meta charset="utf-8" />
+        <title>Google</title>
+        <link type="text/css" rel="stylesheet" href="Searching.css" />
+    </head>
+    <body>
+        
+        <div id="LoginBar">
+            <ul>
+                <li><a href="">+Chris</a></li>
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Images</a></li>
+                <li><a href=""><img src="https://raw.githubusercontent.com/chrisfender0/Google-Homepage/46937fb65745e2f786671b45497921d8e5cc204a/SquareThingy.PNG" /></a></li>
+                <li><a href=""><img src="https://raw.githubusercontent.com/chrisfender0/Google-Homepage/46937fb65745e2f786671b45497921d8e5cc204a/Signin.PNG"/></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
+
+        <div id="SearchMe">
+            <p class="centered"><a href=""><img src="https://www.google.com/images/srpr/logo11w.png" width = "269px" height = "95px"/></a></p>
+            <form>
+                <input id="SearchBox" type="text" size="80" />
+                
+                <p id ="buttons"><input class = "button" type="button" value ="Google Search">
+                <input class = "button" type="button" value ="I'm Feeling Lucky"></p>
+
+            </form>
+        </div>
+        <div id="Footer">
+            <ul id="L_Footer">
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <ul id="R_Footer">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
+        </div>
+
+    </body>
+</html>
